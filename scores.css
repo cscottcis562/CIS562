@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'bentonsansmedium';
+    src: url('bentonsm.eot');
+    src: url('bentonsm.eot?#iefix') format('embedded-opentype'),
+         url('bentonsm.woff2') format('woff2'),
+         url('bentonsm.woff') format('woff'),
+         url('bentonsm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+    font-family: 'bentonSans';
+    src: url('bentonSans.eot');
+    src: url('bentonSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+}
+@font-face {
+    font-family: 'bentonsansbold';
+    src: url('bentonsansbold.eot');
+    src: url('bentonBold.eot?#iefix') format('embedded-opentype'),
+         url('bentonsansbold.ttf') format('truetype'),
+         url('bentonBold.svg#bentonsansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ExoBold';
+    src: url('exo-bold.eot');
+    src: url('exo-bold.eot?#iefix') format('embedded-opentype'),
+         url('exo-bold.woff') format('woff'),
+         url('exo-bold.ttf') format('truetype'),
+         url('exo-bold.svg#ExoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	color:#FFFFFF;
+}
+
+@font-face
+{
+    font-family: 'ExoRegular';
+    src: url('exo-regular.eot');
+    src: url('exo-regular.eot?#iefix') format('embedded-opentype'),
+         url('exo-regular.woff') format('woff'),
+         url('exo-regular.ttf') format('truetype'),
+         url('exo-regular.svg#ExoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	color:#FFFFFF
+}
+
+html { height:100%;}
+
+body {
+	background-color:#F3F3F3;
+	text-decoration:none;
+	min-height:500px;
+	height: 100%;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+	}
+a:hover { text-decoration:underline;
+    }	
+	
+.setup { text-align:center;
+		 max-width:1000px;
+		 min-height:100%;
+		 margin: auto;
+		 background-color:#FFFFFF;}
+		 
+		 
+.Dheader { left:0;
+		   right:0;
+		   font-family:ExoBold, Arial, sans-serif;
+           background-color:#FED537;
+		   min-height:15%;
+		   letter-spacing:0px;
+			background-image: url(images/header88.svg);
+			background-position: left;
+	        background-repeat:no-repeat;
+	        background-size: contain;
+	        text-align:right;
+	        width: 100%;
+	        font-style: normal;
+	        padding-top:1%;
+			margin-bottom:15px;
+	        display: table;
+			}
+	
+.DHText {
+	font-family:ExoBold, Arial, Sans-Serif;
+	letter-spacing:0px;
+	padding-right:1%;
+	line-height:1;
+	color:#2F4CB7;
+	display:table-cell;
+	padding-top:4.5%;
+	padding-bottom:4%;
+	font-size: 1em;
+}			
+
+
+/* tr:nth-child(odd) {background:#FFFFFF }
+tr:nth-child(even) {background: #E8EDFF} */
+
+.TText {
+	font-family: bentonSans, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    font-weight: normal;
+    border-bottom: 1px solid #CCCCCC;
+	text-align:left;
+	text-decoration:none;
+	padding:0;
+}
+
+.Theader {
+	font-family: bentonsansbold, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.Theader2 {
+	font-family: bentonsansbold, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:large;
+	vertical-align:top;
+}
+.Dth {
+    font-family: bentonsansbold, Arial, Helvetica, sans-serif; 
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #039;
+    border-bottom: 1px solid #CCCCCC;
+    color: #ffffff;
+	text-align:left;
+	text-decoration:none;
+	white-space: nowrap;
+	letter-spacing:.5px;
+	
+	
+}
+.Dtl {
+    font-family: bentonsansbold, Arial, Helvetica, sans-serif; 
+    font-size: 12px;
+    border-bottom: 1px solid #EAEAEA;
+    color: #039;
+	text-align:left;
+	text-decoration:none;
+	letter-spacing: 1px;
+}
+.TbText, td {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+    border-bottom: 1px solid #EAEAEA;
+    color: #039;
+	text-align:left;
+	text-decoration:none;
+	white-space: nowrap;
+	font-weight:200;
+}
+
+.TbTextR {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #039;
+	text-decoration:none;
+	white-space: nowrap;
+	font-weight:200;
+	text-align: right;
+}
+
+.TbTextCenter, td {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+    border-bottom: 1px solid #EAEAEA;
+    color: #039;
+	text-align:Center;
+	text-decoration:none;
+	white-space: nowrap;
+	font-weight:200;
+}
+
+
+.TbTextB, td {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+    border-bottom: 1px solid #EAEAEA;
+    color: #039;
+	text-align:left;
+	text-decoration:none;
+	white-space: nowrap;
+	font-weight:bold;
+	
+}
+.TbText2, td {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 11px;
+    color: #039;
+	text-align:left;
+	text-decoration:none;
+	white-space: nowrap;
+	margin-bottom:5px;
+	font-weight:normal;
+}
+.outer {
+	padding: 0px;
+	height:100%;
+	background-color:#FFFFFF;
+		}
+td.outer:hover { background-color:#FFFFFF;
+				
+		}
+tr:hover { background-color:#b9c9fe;
+		}
+button {
+    border: 0;
+    padding: 0;
+    display: inline;
+    background: none;
+    text-decoration: underline;
+	color:inherit;
+}
+button:hover {
+    cursor: pointer;
+}		
+		
+
+		   

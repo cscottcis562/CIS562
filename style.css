@@ -1,0 +1,37 @@
+.setup{
+	height:auto;
+}
+
+.header{
+	width:100%;
+	background-color: #feda42;
+	overflow:auto;
+}
+
+img{
+	max-width:100%;
+	display:block;
+}
+
+#logo{
+	float:left;
+	width:41%;
+}
+
+#text{
+	width:59%;
+	float:left;
+	text-align:center;
+	font-family: ExoBold,Arial,sans-serif;
+	font-style: normal;
+	letter-spacing:0px;
+	padding-top:1%;
+}
+
+
+@media (max-width:414px) {
+	#logo, #text{
+	float:none;
+	width:100%;
+	}
+}
